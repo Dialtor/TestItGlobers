@@ -1,0 +1,48 @@
+.booksection{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  margin-top: 14px;
+}
+
+.card_book {
+  width: 300px;
+  min-height: 600px;
+  height: auto;
+  border: .2px solid rgba(10, 10, 10, 0.191);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.card_book h1 {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.info_book_container {
+  width: 90%;
+  height: 200px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.info_book_container .price_book {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.link_Book_View {
+  color: rgba(0, 0, 0, 0.85);
+  text-decoration: none;
+  
+}

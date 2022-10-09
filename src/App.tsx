@@ -1,5 +1,5 @@
 import { Route, Switch } from 'react-router-dom'
-import { Home } from './screens'
+import { BookView, Home } from './screens'
 
 function App() {
 
@@ -7,6 +7,9 @@ function App() {
     <Switch>
       <Route path={"/"} exact>
           <Home/>
+      </Route>
+      <Route path={"/BookView/:id"}>
+        <BookView/>
       </Route>
     </Switch>
   )
